@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* */
+@font-face{
+    font-family: 'Baskervville', serif;
+    src: url();
+}
+
+html{
+    box-sizing: border-box;
+    background-color: burlywood;
+    color: firebrick;
+}
+body{
+    margin: 0px 50px 50px;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    border-radius: 3px;
+    font-size: 5px;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: lightgrey;
+}
+img{
+    float: left;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 25px;
+
+
+}
+article.list ol li{
+    clear: left;
+    list-style-image: url(foodicon.jpg);
+    margin: 1px 1px 10px;
+
+}

@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+html{
+    height: 100%;
+    background-color: black;
+    color: whitesmoke;
+}
+header{
+    width: 100vh;
+}
+body{
+    width: 100%;
+}
+/*body header div >h1{
+    display: block;
+    float: left;
+    margin: 100px;
+    text-align: center;
+}*/
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+}
+ul li a:hover{
+background-color:blue;
+color: yellow;
+}
+h1{
+    position: absolute;
+    top: 25%;
+    left: 50%;
+}
+.container .box{
+    width: 1000px;
+    margin: 200px;
+    display: table;
+    float: left;
+}
+.container .box .box-row{
+    display: table-row;
+}
+.container .box .box-cell{
+    display: table-cell;
+    width: 33%;
+    padding: 10px;
+}
+.container .box .box-cell.box1{
+    background: greenyellow;
+    color: whitesmoke;
+    text-align: justify;
+}
+.container .box .box-cell.box2{
+    background: pink;
+    color: whitesmoke;
+    text-align: justify;
+}
+.container .box .box-cell.box3{
+    background: blue;
+    color: whitesmoke;
+    text-align: justify;
+}
+aside>p{
+    font-variant: small-caps;
+    text-align: center;   
+}
+.rotateimg{
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+footer{
+    border: 1px double;
+    padding: 10px 30px;
+    color: burlywood;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+}

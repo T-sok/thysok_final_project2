@@ -1,0 +1,114 @@
+@charset "utf-8";
+
+
+html{
+    height: 100%;
+    background-color: black;
+    color: whitesmoke;
+}
+header{
+    width: 100vh;
+}
+body{
+	margin-left: auto;
+	margin-right: auto;
+	width: 81.9%;
+	padding-left: 5%;
+	padding-right: 5%;
+	clear: none;
+	float: none;
+	min-height: 100%;
+}
+body header div >h1{
+    display: block;
+    float: left;
+    margin: 100px;
+    text-align: center;
+
+}
+/* #8. Different Font colors for each page*/
+#freeorcheapfun{
+    color: lightsalmon;
+}
+#otherfun{
+    color: aqua;
+}
+/*7. pseduo-class or pseduo- element (1)*/
+.horizontal::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/*7. pseduo-class or pseduo- element (2)*/
+div>h1::first-letter{
+color: gold;
+}
+/*7. pseduo-class or pseduo- element (3)*/
+ul li a:hover{
+    background-color: white;
+    color: black;
+    }
+/*7. pseduo-class or pseduo- element (4)*/
+a:visited{
+    color: royalblue;
+}
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 25px;
+
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+}
+.title{
+    position: relative;
+    text-align: center;
+}
+.title h1{
+color: whitesmoke;
+float: left;
+display: block;
+font-size: 40px;
+}
+#pbhike{/* Pillbox Hike*/
+display: block;
+float: left;
+
+}
+#diamondhike{
+    display: block;
+    float: left;  
+}
+#pineapple{
+    display: block;
+    float: left;    
+}
+#beachbum{
+    display: block;
+    float: left;
+}
+/*header>.pillbox{
+    float: left;
+    width: 33.33%;
+    padding: 20px;
+}*/
+.horizontal>img{
+    box-sizing: border-box;
+    float: left;
+
+}
+
+footer{
+    border: 1px double whitesmoke;
+    padding: 10px 30px;
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+}
